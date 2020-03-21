@@ -11,3 +11,5 @@ while number > 0:
         print('密碼錯誤!')
         if number > 0: #不要印出密碼錯誤還有0次
             print('還有', number,'次機會')
+        else:
+            print('沒機會嘗試了，要鎖帳號了')
